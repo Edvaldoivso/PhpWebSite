@@ -1,0 +1,36 @@
+body {
+  margin: 1%;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  /* branco */
+}
+
+header {
+  background-color: #0000ff;
+  /* azul */
+  color: #ffff00;
+  /* amarelo */
+  text-align: center;
+  padding: 20px;
+}
+
+.central {
+  margin: 50px auto;
+  max-width: 100%;
+  text-align: center;
+  color: #0000ff;
+  /* azul */
+
+}
+
+footer {
+  background-color: #0000ff;
+  /* azul */
+  color: #ffffff;
+  /* branco */
+  text-align: center;
+  padding: 10px;
+  /* position: sticky; */
+  bottom: 5px;
+  width: 97vw;
+}
