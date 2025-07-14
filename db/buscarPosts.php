@@ -3,7 +3,11 @@
 include_once './db/conexao.php';
 
 // Exemplo de consulta
-$resultado = $conn->query("SELECT * FROM `wp_postTI` WHERE idPost = 1");
+$resultado = $conn->query("SELECT *
+FROM wp_postTI
+WHERE statusPost = 'A'
+ORDER BY dataCriacao DESC
+LIMIT 1;");
 
 $texto = $resultado->fetch_assoc();
 

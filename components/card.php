@@ -1,26 +1,18 @@
- <div class="card">
-     <h3>🔍 Inteligência</h3>
-     <p>Como a tecnologia está transformando a tecnologia</p>
- </div>
- <div class="card">
-     <h3>🔍 Inteligência</h3>
-     <p>Como a tecnologia está transformando a tecnologia</p>
- </div>
- <div class="card">
-     <h3>🔍 Inteligência</h3>
-     <p>Como a tecnologia está transformando a tecnologia</p>
- </div>
- <div class="card">
-     <h3>🔍 Inteligência</h3>
-     <p>Como a tecnologia está transformando a tecnologia</p>
- </div>
- <div class="card">
-     <h3>🔍 Inteligência</h3>
-     <p>Como a tecnologia está transformando a tecnologia</p>
- </div>
+ <?php
+   include_once './db/exibeCards.php';
+    ?>
 
- <div class="card">
-     <h3>🔐 Segurança Emocional</h3>
-     <p>Privacidade e intimidade no mundo dos dados.</p>
- </div>
- 
+ <?php foreach ($resultadoCards as $post): ?>
+     <div class="card">
+         <h3><?php echo htmlspecialchars($post['tituloPost']); ?></h3>
+         <p>
+             <?php
+                $texto = $post['textoPost'];
+                $textoLimitado = mb_strlen($texto) > 50
+                    ? mb_substr($texto, 0, 30) . '...'
+                    : $texto;
+                echo nl2br(htmlspecialchars($textoLimitado));
+                ?>
+         </p>
+     </div>
+ <?php endforeach; ?>

@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <title>Login | Erotecnologia</title>
-  <link rel="stylesheet" href="../css/login.css">
+  <link rel="stylesheet" href="./css/login.css">
 </head>
 <body>
   <div class="login-container">
     <h2>Faça seu Login</h2>
-    <form action="verificarLogin.php" method="POST">
+    <form action="./db/campainha.php" method="POST">
       <label for="email">Email:</label>
       <input type="email" id="email" name="email" required>
 
