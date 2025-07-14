@@ -1,0 +1,24 @@
+.card-post {
+  background-color: #fffffff2;
+  border: 1px solid #0000ff33;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 12px #0000ff20;
+  margin-bottom: 40px;
+  color: #000;
+}
+
+.card-post h4 {
+  margin-top: 0;
+  color: #0000ff;
+}
+
+.card-post .meta {
+  font-size: 0.9em;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.conteudo-post {
+  line-height: 1.6;
+}

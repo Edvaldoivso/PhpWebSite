@@ -12,7 +12,7 @@
     </section>
   </main>
 
-  <aside class="leituraDiaria">
-  <?php include_once './components/leituradiaria.php'; ?>
+  <aside class="leitura">
+  <?php include_once './components/leitura.php'; ?>
   </aside>
 </div>

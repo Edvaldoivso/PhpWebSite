@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/central.css">
     <link rel="stylesheet" href="./css/card.css">
+    <link rel="stylesheet" href="./css/cardPosts.css">
 </head>
 
 <body>
@@ -22,7 +23,7 @@
     </div>
 
     <footer>
-        &copy; 2025 Erotecnologia. Todos os direitos reservados.
+        &copy; 2020 Erotecnologia. Todos os direitos reservados.
     </footer>
 </body>
 
