@@ -34,3 +34,11 @@ header {
 }
 
 
+.separador {
+  border: none;
+  height: 2px;
+  background-color: #ffffff;
+  margin: 20px 0;
+}
+
+

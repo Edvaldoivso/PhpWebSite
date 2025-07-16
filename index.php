@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<?php 
+<?php
 // ini_set('display_errors', 1);
 // error_reporting(E_ALL);
 ?>
@@ -14,13 +14,13 @@
     <link rel="stylesheet" href="./css/central.css">
     <link rel="stylesheet" href="./css/card.css">
     <link rel="stylesheet" href="./css/cardPosts.css">
+   
 </head>
 
 <body>
     <header>
         <?php include_once './components/header.php'; ?>
     </header>
-
 
     <div class="central">
         <?php include_once './components/central.php'; ?>

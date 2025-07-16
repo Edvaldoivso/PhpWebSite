@@ -5,12 +5,13 @@
   </div>
 
   <nav class="menu">
-    <!-- <ul class="menu-itens">
-      <li><a href="#">Posts</a></li>
-      <li><a href="#">Segurança</a></li>
-      <li><a href="#">Login</a></li>
-      <li><a href="#">Contatos</a></li>
-      <li><a href="#">Sobre</a></li>
-    </ul> -->
+    <ul class="menu-itens">
+      <li><a href="https://erotecnologia.com">Home</a></li>
+      <!-- <li><a href="https://erotecnologia.com/loginPage.php">Login</a></li>
+      <li><a href="https://erotecnologia.com/loginPage.php">Contatos</a></li>
+      <li><a href="https://erotecnologia.com/loginPage.php">Sobre</a></li> -->
+      <li><a href="https://erotecnologia.com/loginPage.php">Gerencia</a></li>
+    </ul>
   </nav>
+  <br>
 </header>
