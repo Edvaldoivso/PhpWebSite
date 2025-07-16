@@ -1,15 +1,22 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <title>Cadastro de Postagem</title>
   <link rel="stylesheet" href="./css/cadastro.css"> <!-- opcional para estilização -->
 </head>
+
 <body>
+
+  <a href="https://erotecnologia.com/" class="btn btn-logoff">
+    Logoff
+  </a>
+
   <div class="form-container">
     <h2>Nova Postagem</h2>
     <form action="salvarPost.php" method="POST">
-      
+
       <label for="titulo">Título:</label>
       <input type="text" id="titulo" name="titulo" required>
 
@@ -29,4 +36,5 @@
     </form>
   </div>
 </body>
+
 </html>

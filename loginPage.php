@@ -8,11 +8,11 @@
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <!-- Seu estilo personalizado -->
- 
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Erotecnologia</title>
   <link rel="stylesheet" href="./css/header.css">
-   <link rel="stylesheet" href="./css/login.css">
+  <link rel="stylesheet" href="./css/login.css">
 
 </head>
 
@@ -33,6 +33,12 @@
           <input type="password" id="senha" name="senha" class="form-control" required>
         </div>
         <button type="submit" class="btn btn-custom w-100">Entrar</button>
+        <br>
+        <br>
+        <a href="https://erotecnologia.com/" class="btn btn-logoff">
+          cancelar
+        </a>
+
       </form>
     </div>
   </div>
