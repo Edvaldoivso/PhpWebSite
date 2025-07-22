@@ -22,11 +22,12 @@ $stmt = $conn->prepare("INSERT INTO wp_postTI (textoPost, tituloPost, dataCriaca
 $stmt->bind_param("ssssss", $texto, $titulo, $dataCriacao, $dataModificacao, $autor, $status);
 
 if ($stmt->execute()) {
-  header("Location: ../index.php");
+  echo "<h1> Sucesso ao cadastrar Post" . $titulo . "</h1>";
+
+  header("Location: /criarPost.php");
 } else {
   echo "<p style='color: red;'>Erro ao salvar post: " . $stmt->error . "</p>";
 }
 
 $stmt->close();
 $conn->close();
-?>
