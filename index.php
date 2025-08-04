@@ -2,6 +2,8 @@
 <?php
 // ini_set('display_errors', 1);
 // error_reporting(E_ALL);
+$home = "circleMenuAtivo";
+
 ?>
 <html lang="pt-br">
 

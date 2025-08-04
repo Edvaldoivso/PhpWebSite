@@ -1,4 +1,9 @@
 <!DOCTYPE html>
+
+<?php
+$login = "circleMenuAtivo";
+?>
+
 <html lang="pt-br">
 
 <head>

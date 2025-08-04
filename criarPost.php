@@ -1,3 +1,7 @@
+<?php
+$post = "circleMenuAtivo";
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 

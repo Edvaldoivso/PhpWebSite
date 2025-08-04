@@ -12,11 +12,21 @@
 
     <nav class="menu">
       <ul class="menu-itens">
-        <li><a href="https://erotecnologia.com">Home</a></li>
-        <li><a href="https://erotecnologia.com/loginPage.php">Login</a></li>
-        <li><a href="https://erotecnologia.com/loginPage.php">Contatos</a></li>
-        <li><a href="https://erotecnologia.com/loginPage.php">Sobre</a></li>
-        <li><a href="https://erotecnologia.com/loginPage.php">Gerencia</a></li>
+        <li><a href="https://erotecnologia.com">
+            <div class="circleMenu <?php echo $home; ?>">Home</div>
+          </a></li>
+        <li><a href="https://erotecnologia.com/loginPage.php">
+            <div class="circleMenu <?php echo  $login; ?>">Login<div>
+          </a></li>
+        <!-- <li><a href="https://erotecnologia.com/loginPage.php">
+            <div class="circleMenu <?php echo  $contato; ?>">Contatos<div>
+          </a></li>
+        <li><a href="https://erotecnologia.com/loginPage.php">
+            <div class="circleMenu <?php echo  $sobre; ?>">Sobre<div>
+          </a></li>
+        <li><a href="https://erotecnologia.com/loginPage.php">
+            <div class="circleMenu <?php echo  $gerencia; ?>">Gerencia<div> -->
+          </a></li>
       </ul>
     </nav>
   </div>
