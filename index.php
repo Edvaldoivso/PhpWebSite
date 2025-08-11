@@ -23,6 +23,14 @@
         <?php include_once './components/header.php'; ?>
     </header>
 
+
+
+       <div class="central">
+        <?php include_once './components/noticias.php'; ?>
+    </div>
+    
+    
+
     <div class="central">
         <?php include_once './components/central.php'; ?>
     </div>
